@@ -1,6 +1,6 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Header;
+namespace Lokutus24\Szamlazzhu\Header;
 
 enum Type
 {

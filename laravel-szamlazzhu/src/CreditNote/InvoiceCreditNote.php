@@ -1,10 +1,10 @@
 <?php
 
-namespace Omisai\Szamlazzhu\CreditNote;
+namespace Lokutus24\Szamlazzhu\CreditNote;
 
-use Omisai\Szamlazzhu\FieldsValidationTrait;
-use Omisai\Szamlazzhu\PaymentMethod;
-use Omisai\Szamlazzhu\SzamlaAgentException;
+use Lokutus24\Szamlazzhu\FieldsValidationTrait;
+use Lokutus24\Szamlazzhu\PaymentMethod;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
 use Carbon\Carbon;
 
 class InvoiceCreditNote extends CreditNote

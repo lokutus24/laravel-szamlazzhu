@@ -1,6 +1,6 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Ledger;
+namespace Lokutus24\Szamlazzhu\Ledger;
 
 /**
  * HU: Tétel főkönyvi adatok

@@ -1,10 +1,10 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Item;
+namespace Lokutus24\Szamlazzhu\Item;
 
-use Omisai\Szamlazzhu\HasXmlBuildInterface;
-use Omisai\Szamlazzhu\Ledger\ReceiptItemLedger;
-use Omisai\Szamlazzhu\SzamlaAgentException;
+use Lokutus24\Szamlazzhu\HasXmlBuildInterface;
+use Lokutus24\Szamlazzhu\Ledger\ReceiptItemLedger;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
 
 class ReceiptItem extends Item implements HasXmlBuildInterface
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Response;
+namespace Lokutus24\Szamlazzhu\Response;
 
 use Carbon\Carbon;
-use Omisai\Szamlazzhu\Currency;
-use Omisai\Szamlazzhu\PaymentMethod;
-use Omisai\Szamlazzhu\SzamlaAgentUtil;
-use Omisai\Szamlazzhu\Response\AbstractResponse;
+use Lokutus24\Szamlazzhu\Currency;
+use Lokutus24\Szamlazzhu\PaymentMethod;
+use Lokutus24\Szamlazzhu\SzamlaAgentUtil;
+use Lokutus24\Szamlazzhu\Response\AbstractResponse;
 
 class ReceiptResponse extends AbstractResponse
 {

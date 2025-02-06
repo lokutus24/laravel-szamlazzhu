@@ -1,6 +1,6 @@
 <?php
 
-use Omisai\Szamlazzhu\Tests\TestCase;
+use Lokutus24\Szamlazzhu\Tests\TestCase;
 
 /*
 |--------------------------------------------------------------------------

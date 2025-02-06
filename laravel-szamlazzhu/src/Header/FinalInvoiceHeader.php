@@ -1,10 +1,10 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Header;
+namespace Lokutus24\Szamlazzhu\Header;
 
-use Omisai\Szamlazzhu\Document\Invoice\Invoice;
-use Omisai\Szamlazzhu\Header\Type;
-use Omisai\Szamlazzhu\SzamlaAgentException;
+use Lokutus24\Szamlazzhu\Document\Invoice\Invoice;
+use Lokutus24\Szamlazzhu\Header\Type;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
 
 class FinalInvoiceHeader extends InvoiceHeader
 {

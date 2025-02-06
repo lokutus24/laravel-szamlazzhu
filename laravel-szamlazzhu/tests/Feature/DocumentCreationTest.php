@@ -1,21 +1,21 @@
 <?php
 
 use Carbon\Carbon;
-use \Omisai\Szamlazzhu\SzamlaAgent;
-use \Omisai\Szamlazzhu\Document\Invoice\Invoice;
-use Omisai\Szamlazzhu\Seller;
-use Omisai\Szamlazzhu\Buyer;
-use Omisai\Szamlazzhu\Currency;
-use Omisai\Szamlazzhu\Document\Receipt\Receipt;
-use Omisai\Szamlazzhu\PaymentMethod;
-use Omisai\Szamlazzhu\Language;
-use Omisai\Szamlazzhu\Item\InvoiceItem;
-use Omisai\Szamlazzhu\Header\InvoiceHeader;
-use Omisai\Szamlazzhu\Header\ReceiptHeader;
-use Omisai\Szamlazzhu\Item\ReceiptItem;
-use Omisai\Szamlazzhu\SzamlaAgentUtil;
-use Omisai\Szamlazzhu\TaxPayer;
-use Omisai\Szamlazzhu\SzamlaAgentException;
+use \Lokutus24\Szamlazzhu\SzamlaAgent;
+use \Lokutus24\Szamlazzhu\Document\Invoice\Invoice;
+use Lokutus24\Szamlazzhu\Seller;
+use Lokutus24\Szamlazzhu\Buyer;
+use Lokutus24\Szamlazzhu\Currency;
+use Lokutus24\Szamlazzhu\Document\Receipt\Receipt;
+use Lokutus24\Szamlazzhu\PaymentMethod;
+use Lokutus24\Szamlazzhu\Language;
+use Lokutus24\Szamlazzhu\Item\InvoiceItem;
+use Lokutus24\Szamlazzhu\Header\InvoiceHeader;
+use Lokutus24\Szamlazzhu\Header\ReceiptHeader;
+use Lokutus24\Szamlazzhu\Item\ReceiptItem;
+use Lokutus24\Szamlazzhu\SzamlaAgentUtil;
+use Lokutus24\Szamlazzhu\TaxPayer;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
 
 it('creates an invoice', function () {
     $agent = SzamlaAgent::createWithAPIkey(config('szamlazzhu.api_key'), false,);

@@ -1,16 +1,16 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Response;
+namespace Lokutus24\Szamlazzhu\Response;
 
-use Omisai\Szamlazzhu\Document\Document;
-use Omisai\Szamlazzhu\Document\Invoice\Invoice;
-use Omisai\Szamlazzhu\Header\InvoiceHeader;
-use Omisai\Szamlazzhu\Log;
-use Omisai\Szamlazzhu\SimpleXMLExtended;
-use Omisai\Szamlazzhu\SzamlaAgent;
-use Omisai\Szamlazzhu\SzamlaAgentException;
-use Omisai\Szamlazzhu\SzamlaAgentRequest;
-use Omisai\Szamlazzhu\SzamlaAgentUtil;
+use Lokutus24\Szamlazzhu\Document\Document;
+use Lokutus24\Szamlazzhu\Document\Invoice\Invoice;
+use Lokutus24\Szamlazzhu\Header\InvoiceHeader;
+use Lokutus24\Szamlazzhu\Log;
+use Lokutus24\Szamlazzhu\SimpleXMLExtended;
+use Lokutus24\Szamlazzhu\SzamlaAgent;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
+use Lokutus24\Szamlazzhu\SzamlaAgentRequest;
+use Lokutus24\Szamlazzhu\SzamlaAgentUtil;
 
 /**
  * A Számla Agent választ kezelő osztály

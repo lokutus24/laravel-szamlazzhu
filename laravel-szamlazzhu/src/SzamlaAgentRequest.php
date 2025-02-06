@@ -1,8 +1,8 @@
 <?php
 
-namespace Omisai\Szamlazzhu;
+namespace Lokutus24\Szamlazzhu;
 
-use Omisai\Szamlazzhu\Document\Document;
+use Lokutus24\Szamlazzhu\Document\Document;
 
 /**
  * A Számla Agent kéréseket kezelő osztály

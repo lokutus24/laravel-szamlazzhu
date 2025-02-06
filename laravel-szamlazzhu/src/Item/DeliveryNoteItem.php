@@ -1,6 +1,6 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Item;
+namespace Lokutus24\Szamlazzhu\Item;
 
 class DeliveryNoteItem extends InvoiceItem
 {

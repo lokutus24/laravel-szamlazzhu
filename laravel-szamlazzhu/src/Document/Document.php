@@ -1,9 +1,9 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Document;
+namespace Lokutus24\Szamlazzhu\Document;
 
-use Omisai\Szamlazzhu\Currency;
-use Omisai\Szamlazzhu\Language;
+use Lokutus24\Szamlazzhu\Currency;
+use Lokutus24\Szamlazzhu\Language;
 
 /**
  * Bizonylat

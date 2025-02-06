@@ -1,8 +1,8 @@
 <?php
 
-namespace Omisai\Szamlazzhu\CreditNote;
+namespace Lokutus24\Szamlazzhu\CreditNote;
 
-use Omisai\Szamlazzhu\PaymentMethod;
+use Lokutus24\Szamlazzhu\PaymentMethod;
 use Carbon\Carbon;
 
 /**

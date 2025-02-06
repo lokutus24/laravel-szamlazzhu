@@ -1,9 +1,9 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Document\Invoice;
+namespace Lokutus24\Szamlazzhu\Document\Invoice;
 
-use Omisai\Szamlazzhu\Header\FinalInvoiceHeader;
-use Omisai\Szamlazzhu\SzamlaAgentException;
+use Lokutus24\Szamlazzhu\Header\FinalInvoiceHeader;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
 
 /**
  * HU: Végszámla

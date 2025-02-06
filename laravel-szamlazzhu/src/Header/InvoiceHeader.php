@@ -1,18 +1,18 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Header;
+namespace Lokutus24\Szamlazzhu\Header;
 
 use Carbon\Carbon;
-use Omisai\Szamlazzhu\Document\Document;
-use Omisai\Szamlazzhu\Document\Invoice\Invoice;
-use Omisai\Szamlazzhu\FieldsValidationTrait;
-use Omisai\Szamlazzhu\PaymentMethod;
-use Omisai\Szamlazzhu\HasXmlBuildWithRequestInterface;
-use Omisai\Szamlazzhu\SzamlaAgentException;
-use Omisai\Szamlazzhu\SzamlaAgentRequest;
-use Omisai\Szamlazzhu\SzamlaAgentUtil;
-use Omisai\Szamlazzhu\Header\Type;
-use Omisai\Szamlazzhu\Language;
+use Lokutus24\Szamlazzhu\Document\Document;
+use Lokutus24\Szamlazzhu\Document\Invoice\Invoice;
+use Lokutus24\Szamlazzhu\FieldsValidationTrait;
+use Lokutus24\Szamlazzhu\PaymentMethod;
+use Lokutus24\Szamlazzhu\HasXmlBuildWithRequestInterface;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
+use Lokutus24\Szamlazzhu\SzamlaAgentRequest;
+use Lokutus24\Szamlazzhu\SzamlaAgentUtil;
+use Lokutus24\Szamlazzhu\Header\Type;
+use Lokutus24\Szamlazzhu\Language;
 
 class InvoiceHeader extends DocumentHeader implements HasXmlBuildWithRequestInterface
 {

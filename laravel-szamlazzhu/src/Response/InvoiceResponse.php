@@ -1,8 +1,8 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Response;
+namespace Lokutus24\Szamlazzhu\Response;
 
-use Omisai\Szamlazzhu\SzamlaAgentUtil;
+use Lokutus24\Szamlazzhu\SzamlaAgentUtil;
 
 /**
  * Egy számla típusú bizonylat kérésére adott választ reprezentáló osztály

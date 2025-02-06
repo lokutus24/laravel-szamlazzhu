@@ -1,11 +1,11 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Waybill;
+namespace Lokutus24\Szamlazzhu\Waybill;
 
-use Omisai\Szamlazzhu\HasXmlBuildWithRequestInterface;
-use Omisai\Szamlazzhu\SzamlaAgentException;
-use Omisai\Szamlazzhu\SzamlaAgentRequest;
-use Omisai\Szamlazzhu\SzamlaAgentUtil;
+use Lokutus24\Szamlazzhu\HasXmlBuildWithRequestInterface;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
+use Lokutus24\Szamlazzhu\SzamlaAgentRequest;
+use Lokutus24\Szamlazzhu\SzamlaAgentUtil;
 
 /**
  * HU: Fuvarlevél

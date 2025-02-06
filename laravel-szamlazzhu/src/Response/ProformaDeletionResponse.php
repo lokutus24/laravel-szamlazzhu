@@ -1,8 +1,8 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Response;
+namespace Lokutus24\Szamlazzhu\Response;
 
-use Omisai\Szamlazzhu\Response\AbstractResponse;
+use Lokutus24\Szamlazzhu\Response\AbstractResponse;
 
 class ProformaDeletionResponse extends AbstractResponse
 {

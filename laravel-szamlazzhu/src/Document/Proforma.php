@@ -1,9 +1,9 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Document;
+namespace Lokutus24\Szamlazzhu\Document;
 
-use Omisai\Szamlazzhu\Document\Invoice\Invoice;
-use Omisai\Szamlazzhu\Header\ProformaHeader;
+use Lokutus24\Szamlazzhu\Document\Invoice\Invoice;
+use Lokutus24\Szamlazzhu\Header\ProformaHeader;
 
 /**
  * HU: Díjbekérő

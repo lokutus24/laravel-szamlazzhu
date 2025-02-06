@@ -1,19 +1,19 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Document\Invoice;
+namespace Lokutus24\Szamlazzhu\Document\Invoice;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
-use Omisai\Szamlazzhu\Buyer;
-use Omisai\Szamlazzhu\CreditNote\InvoiceCreditNote;
-use Omisai\Szamlazzhu\Document\Document;
-use Omisai\Szamlazzhu\HasXmlBuildWithRequestInterface;
-use Omisai\Szamlazzhu\Header\InvoiceHeader;
-use Omisai\Szamlazzhu\Item\InvoiceItem;
-use Omisai\Szamlazzhu\Seller;
-use Omisai\Szamlazzhu\SzamlaAgentException;
-use Omisai\Szamlazzhu\SzamlaAgentRequest;
-use Omisai\Szamlazzhu\Waybill\Waybill;
+use Lokutus24\Szamlazzhu\Buyer;
+use Lokutus24\Szamlazzhu\CreditNote\InvoiceCreditNote;
+use Lokutus24\Szamlazzhu\Document\Document;
+use Lokutus24\Szamlazzhu\HasXmlBuildWithRequestInterface;
+use Lokutus24\Szamlazzhu\Header\InvoiceHeader;
+use Lokutus24\Szamlazzhu\Item\InvoiceItem;
+use Lokutus24\Szamlazzhu\Seller;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
+use Lokutus24\Szamlazzhu\SzamlaAgentRequest;
+use Lokutus24\Szamlazzhu\Waybill\Waybill;
 
 /**
  * HU: Számla

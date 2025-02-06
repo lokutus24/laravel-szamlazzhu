@@ -1,10 +1,10 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Header;
+namespace Lokutus24\Szamlazzhu\Header;
 
-use Omisai\Szamlazzhu\SzamlaAgentException;
-use Omisai\Szamlazzhu\SzamlaAgentRequest;
-use Omisai\Szamlazzhu\Header\Type;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
+use Lokutus24\Szamlazzhu\SzamlaAgentRequest;
+use Lokutus24\Szamlazzhu\Header\Type;
 
 class ProformaHeader extends InvoiceHeader
 {

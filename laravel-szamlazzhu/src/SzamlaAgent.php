@@ -1,19 +1,19 @@
 <?php
 
-namespace Omisai\Szamlazzhu;
+namespace Lokutus24\Szamlazzhu;
 
-use Omisai\Szamlazzhu\Document\Document;
-use Omisai\Szamlazzhu\Document\DeliveryNote;
-use Omisai\Szamlazzhu\Document\Proforma;
-use Omisai\Szamlazzhu\Document\Receipt\Receipt;
-use Omisai\Szamlazzhu\Document\Receipt\ReverseReceipt;
-use Omisai\Szamlazzhu\Document\Invoice\Invoice;
-use Omisai\Szamlazzhu\Document\Invoice\ReverseInvoice;
-use Omisai\Szamlazzhu\Document\Invoice\CorrectiveInvoice;
-use Omisai\Szamlazzhu\Document\Invoice\FinalInvoice;
-use Omisai\Szamlazzhu\Document\Invoice\PrePaymentInvoice;
-use Omisai\Szamlazzhu\Response\SzamlaAgentResponse;
-use Omisai\Szamlazzhu\Header\DocumentHeader;
+use Lokutus24\Szamlazzhu\Document\Document;
+use Lokutus24\Szamlazzhu\Document\DeliveryNote;
+use Lokutus24\Szamlazzhu\Document\Proforma;
+use Lokutus24\Szamlazzhu\Document\Receipt\Receipt;
+use Lokutus24\Szamlazzhu\Document\Receipt\ReverseReceipt;
+use Lokutus24\Szamlazzhu\Document\Invoice\Invoice;
+use Lokutus24\Szamlazzhu\Document\Invoice\ReverseInvoice;
+use Lokutus24\Szamlazzhu\Document\Invoice\CorrectiveInvoice;
+use Lokutus24\Szamlazzhu\Document\Invoice\FinalInvoice;
+use Lokutus24\Szamlazzhu\Document\Invoice\PrePaymentInvoice;
+use Lokutus24\Szamlazzhu\Response\SzamlaAgentResponse;
+use Lokutus24\Szamlazzhu\Header\DocumentHeader;
 
 
 

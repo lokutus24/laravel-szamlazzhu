@@ -1,9 +1,9 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Document\Invoice;
+namespace Lokutus24\Szamlazzhu\Document\Invoice;
 
-use Omisai\Szamlazzhu\Header\ReverseInvoiceHeader;
-use Omisai\Szamlazzhu\SzamlaAgentException;
+use Lokutus24\Szamlazzhu\Header\ReverseInvoiceHeader;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
 
 /**
  * HU: Sztornó számla

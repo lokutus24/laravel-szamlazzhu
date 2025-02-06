@@ -1,8 +1,8 @@
 <?php
 
-namespace Omisai\Szamlazzhu;
+namespace Lokutus24\Szamlazzhu;
 
-use Omisai\Szamlazzhu\SzamlaAgentRequest;
+use Lokutus24\Szamlazzhu\SzamlaAgentRequest;
 
 interface HasXmlBuildWithRequestInterface
 {

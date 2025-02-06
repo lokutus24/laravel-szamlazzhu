@@ -1,15 +1,15 @@
 <?php
 
 use Carbon\Carbon;
-use \Omisai\Szamlazzhu\SzamlaAgent;
-use \Omisai\Szamlazzhu\Document\Invoice\Invoice;
-use Omisai\Szamlazzhu\CookieHandler;
-use Omisai\Szamlazzhu\Currency;
-use Omisai\Szamlazzhu\PaymentMethod;
-use Omisai\Szamlazzhu\Language;
-use Omisai\Szamlazzhu\Header\InvoiceHeader;
-use Omisai\Szamlazzhu\SzamlaAgentRequest;
-use Omisai\Szamlazzhu\SzamlaAgentUtil;
+use \Lokutus24\Szamlazzhu\SzamlaAgent;
+use \Lokutus24\Szamlazzhu\Document\Invoice\Invoice;
+use Lokutus24\Szamlazzhu\CookieHandler;
+use Lokutus24\Szamlazzhu\Currency;
+use Lokutus24\Szamlazzhu\PaymentMethod;
+use Lokutus24\Szamlazzhu\Language;
+use Lokutus24\Szamlazzhu\Header\InvoiceHeader;
+use Lokutus24\Szamlazzhu\SzamlaAgentRequest;
+use Lokutus24\Szamlazzhu\SzamlaAgentUtil;
 
 
 it('builds InvoiceHeader xml data', function () {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Header;
+namespace Lokutus24\Szamlazzhu\Header;
 
-use Omisai\Szamlazzhu\Document\Document;
-use Omisai\Szamlazzhu\FieldsValidationTrait;
-use Omisai\Szamlazzhu\PaymentMethod;
-use Omisai\Szamlazzhu\HasXmlBuildWithRequestInterface;
-use Omisai\Szamlazzhu\SzamlaAgentException;
-use Omisai\Szamlazzhu\SzamlaAgentRequest;
-use Omisai\Szamlazzhu\Header\Type;
+use Lokutus24\Szamlazzhu\Document\Document;
+use Lokutus24\Szamlazzhu\FieldsValidationTrait;
+use Lokutus24\Szamlazzhu\PaymentMethod;
+use Lokutus24\Szamlazzhu\HasXmlBuildWithRequestInterface;
+use Lokutus24\Szamlazzhu\SzamlaAgentException;
+use Lokutus24\Szamlazzhu\SzamlaAgentRequest;
+use Lokutus24\Szamlazzhu\Header\Type;
 
 class ReceiptHeader extends DocumentHeader implements HasXmlBuildWithRequestInterface
 {

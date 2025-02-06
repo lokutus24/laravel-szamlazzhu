@@ -1,8 +1,8 @@
 <?php
 
-namespace Omisai\Szamlazzhu\Document\Receipt;
+namespace Lokutus24\Szamlazzhu\Document\Receipt;
 
-use Omisai\Szamlazzhu\Header\ReverseReceiptHeader;
+use Lokutus24\Szamlazzhu\Header\ReverseReceiptHeader;
 
 /**
  * HU: Sztornó nyugta

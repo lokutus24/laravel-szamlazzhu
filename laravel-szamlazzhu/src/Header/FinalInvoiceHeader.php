@@ -1,0 +1,19 @@
+<?php
+
+namespace Omisai\Szamlazzhu\Header;
+
+use Omisai\Szamlazzhu\Document\Invoice\Invoice;
+use Omisai\Szamlazzhu\Header\Type;
+use Omisai\Szamlazzhu\SzamlaAgentException;
+
+class FinalInvoiceHeader extends InvoiceHeader
+{
+    /**
+     * @throws SzamlaAgentException
+     */
+    public function __construct(int $type = Invoice::INVOICE_TYPE_P_INVOICE)
+    {
+        parent::__construct($type);
+        $this->setType(Type::FINAL_INVOICE);
+    }
+}

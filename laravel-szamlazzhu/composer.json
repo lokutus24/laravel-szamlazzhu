@@ -38,12 +38,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Omisai\\Szamlazzhu\\": "src"
+            "Lokutus24\\Szamlazzhu\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Omisai\\Szamlazzhu\\Tests\\": "tests"
+            "Lokutus24\\Szamlazzhu\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",
@@ -59,7 +59,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Omisai\\Szamlazzhu\\SzamlaAgentServiceProvider"
+                "Lokutus24\\Szamlazzhu\\SzamlaAgentServiceProvider"
             ]
         }
     },

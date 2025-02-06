@@ -1,0 +1,10 @@
+# Könyvtárak kizárása
+logs/
+pdf/
+xmls/
+
+# Minden cookie_*.txt fájl kizárása
+cookie_*.txt
+
+# Minden .pub fájl kizárása
+*.pub

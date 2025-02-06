@@ -1,0 +1,14 @@
+# Csak a fájlokat ignorálja, de a mappákat ne
+logs/*
+pdf/*
+xmls/*
+
+# Kivétel: ha a mappát üresen szeretnéd tartani (pl. .gitkeep fájl)
+!logs/.gitkeep
+!pdf/.gitkeep
+!xmls/.gitkeep
+
+# Egyedi fájlok kizárása
+204703147
+204703147.pub
+cookie_*.txt
